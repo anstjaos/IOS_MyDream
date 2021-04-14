@@ -7,37 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D91480472626F6C8002AF15E /* MyDreamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91480342626F6C8002AF15E /* MyDreamApp.swift */; };
-		D91480482626F6C8002AF15E /* MyDreamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91480342626F6C8002AF15E /* MyDreamApp.swift */; };
-		D91480492626F6C8002AF15E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91480352626F6C8002AF15E /* ContentView.swift */; };
-		D914804A2626F6C8002AF15E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91480352626F6C8002AF15E /* ContentView.swift */; };
-		D914804B2626F6C8002AF15E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91480362626F6C8002AF15E /* Assets.xcassets */; };
-		D914804C2626F6C8002AF15E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91480362626F6C8002AF15E /* Assets.xcassets */; };
-		D91480582626F76B002AF15E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91480572626F76B002AF15E /* Main.storyboard */; };
-		D91480592626F76B002AF15E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91480572626F76B002AF15E /* Main.storyboard */; };
+		D91480692626FCB1002AF15E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91480682626FCB1002AF15E /* AppDelegate.swift */; };
+		D914806B2626FCB1002AF15E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D914806A2626FCB1002AF15E /* SceneDelegate.swift */; };
+		D914806D2626FCB1002AF15E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D914806C2626FCB1002AF15E /* ViewController.swift */; };
+		D91480702626FCB1002AF15E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D914806E2626FCB1002AF15E /* Main.storyboard */; };
+		D91480722626FCB3002AF15E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91480712626FCB3002AF15E /* Assets.xcassets */; };
+		D91480752626FCB3002AF15E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91480732626FCB3002AF15E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D91480342626F6C8002AF15E /* MyDreamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDreamApp.swift; sourceTree = "<group>"; };
-		D91480352626F6C8002AF15E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D91480362626F6C8002AF15E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D914803B2626F6C8002AF15E /* MyDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D914803E2626F6C8002AF15E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D91480432626F6C8002AF15E /* MyDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D91480452626F6C8002AF15E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D91480462626F6C8002AF15E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		D91480572626F76B002AF15E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D91480652626FCB1002AF15E /* MyDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91480682626FCB1002AF15E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D914806A2626FCB1002AF15E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D914806C2626FCB1002AF15E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D914806F2626FCB1002AF15E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D91480712626FCB3002AF15E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D91480742626FCB3002AF15E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D91480762626FCB3002AF15E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D91480382626F6C8002AF15E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D91480402626F6C8002AF15E /* Frameworks */ = {
+		D91480622626FCB1002AF15E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,108 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D914802E2626F6C7002AF15E = {
+		D914805C2626FCB1002AF15E = {
 			isa = PBXGroup;
 			children = (
-				D91480332626F6C8002AF15E /* Shared */,
-				D914803D2626F6C8002AF15E /* iOS */,
-				D91480442626F6C8002AF15E /* macOS */,
-				D914803C2626F6C8002AF15E /* Products */,
+				D91480672626FCB1002AF15E /* MyDream */,
+				D91480662626FCB1002AF15E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D91480332626F6C8002AF15E /* Shared */ = {
+		D91480662626FCB1002AF15E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D91480342626F6C8002AF15E /* MyDreamApp.swift */,
-				D91480352626F6C8002AF15E /* ContentView.swift */,
-				D91480362626F6C8002AF15E /* Assets.xcassets */,
-				D91480572626F76B002AF15E /* Main.storyboard */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		D914803C2626F6C8002AF15E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D914803B2626F6C8002AF15E /* MyDream.app */,
-				D91480432626F6C8002AF15E /* MyDream.app */,
+				D91480652626FCB1002AF15E /* MyDream.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D914803D2626F6C8002AF15E /* iOS */ = {
+		D91480672626FCB1002AF15E /* MyDream */ = {
 			isa = PBXGroup;
 			children = (
-				D914803E2626F6C8002AF15E /* Info.plist */,
+				D91480682626FCB1002AF15E /* AppDelegate.swift */,
+				D914806A2626FCB1002AF15E /* SceneDelegate.swift */,
+				D914806C2626FCB1002AF15E /* ViewController.swift */,
+				D914806E2626FCB1002AF15E /* Main.storyboard */,
+				D91480712626FCB3002AF15E /* Assets.xcassets */,
+				D91480732626FCB3002AF15E /* LaunchScreen.storyboard */,
+				D91480762626FCB3002AF15E /* Info.plist */,
 			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		D91480442626F6C8002AF15E /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				D91480452626F6C8002AF15E /* Info.plist */,
-				D91480462626F6C8002AF15E /* macOS.entitlements */,
-			);
-			path = macOS;
+			path = MyDream;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D914803A2626F6C8002AF15E /* MyDream (iOS) */ = {
+		D91480642626FCB1002AF15E /* MyDream */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D914804F2626F6C8002AF15E /* Build configuration list for PBXNativeTarget "MyDream (iOS)" */;
+			buildConfigurationList = D91480792626FCB3002AF15E /* Build configuration list for PBXNativeTarget "MyDream" */;
 			buildPhases = (
-				D91480372626F6C8002AF15E /* Sources */,
-				D91480382626F6C8002AF15E /* Frameworks */,
-				D91480392626F6C8002AF15E /* Resources */,
+				D91480612626FCB1002AF15E /* Sources */,
+				D91480622626FCB1002AF15E /* Frameworks */,
+				D91480632626FCB1002AF15E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "MyDream (iOS)";
-			productName = "MyDream (iOS)";
-			productReference = D914803B2626F6C8002AF15E /* MyDream.app */;
-			productType = "com.apple.product-type.application";
-		};
-		D91480422626F6C8002AF15E /* MyDream (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D91480522626F6C8002AF15E /* Build configuration list for PBXNativeTarget "MyDream (macOS)" */;
-			buildPhases = (
-				D914803F2626F6C8002AF15E /* Sources */,
-				D91480402626F6C8002AF15E /* Frameworks */,
-				D91480412626F6C8002AF15E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "MyDream (macOS)";
-			productName = "MyDream (macOS)";
-			productReference = D91480432626F6C8002AF15E /* MyDream.app */;
+			name = MyDream;
+			productName = MyDream;
+			productReference = D91480652626FCB1002AF15E /* MyDream.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D914802F2626F6C7002AF15E /* Project object */ = {
+		D914805D2626FCB1002AF15E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					D914803A2626F6C8002AF15E = {
-						CreatedOnToolsVersion = 12.4;
-					};
-					D91480422626F6C8002AF15E = {
+					D91480642626FCB1002AF15E = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = D91480322626F6C7002AF15E /* Build configuration list for PBXProject "MyDream" */;
+			buildConfigurationList = D91480602626FCB1002AF15E /* Build configuration list for PBXProject "MyDream" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -156,61 +109,63 @@
 				en,
 				Base,
 			);
-			mainGroup = D914802E2626F6C7002AF15E;
-			productRefGroup = D914803C2626F6C8002AF15E /* Products */;
+			mainGroup = D914805C2626FCB1002AF15E;
+			productRefGroup = D91480662626FCB1002AF15E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D914803A2626F6C8002AF15E /* MyDream (iOS) */,
-				D91480422626F6C8002AF15E /* MyDream (macOS) */,
+				D91480642626FCB1002AF15E /* MyDream */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D91480392626F6C8002AF15E /* Resources */ = {
+		D91480632626FCB1002AF15E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D914804B2626F6C8002AF15E /* Assets.xcassets in Resources */,
-				D91480582626F76B002AF15E /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D91480412626F6C8002AF15E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D914804C2626F6C8002AF15E /* Assets.xcassets in Resources */,
-				D91480592626F76B002AF15E /* Main.storyboard in Resources */,
+				D91480752626FCB3002AF15E /* LaunchScreen.storyboard in Resources */,
+				D91480722626FCB3002AF15E /* Assets.xcassets in Resources */,
+				D91480702626FCB1002AF15E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D91480372626F6C8002AF15E /* Sources */ = {
+		D91480612626FCB1002AF15E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91480492626F6C8002AF15E /* ContentView.swift in Sources */,
-				D91480472626F6C8002AF15E /* MyDreamApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D914803F2626F6C8002AF15E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D914804A2626F6C8002AF15E /* ContentView.swift in Sources */,
-				D91480482626F6C8002AF15E /* MyDreamApp.swift in Sources */,
+				D914806D2626FCB1002AF15E /* ViewController.swift in Sources */,
+				D91480692626FCB1002AF15E /* AppDelegate.swift in Sources */,
+				D914806B2626FCB1002AF15E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		D914806E2626FCB1002AF15E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D914806F2626FCB1002AF15E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D91480732626FCB3002AF15E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D91480742626FCB3002AF15E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		D914804D2626F6C8002AF15E /* Debug */ = {
+		D91480772626FCB3002AF15E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,15 +216,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		D914804E2626F6C8002AF15E /* Release */ = {
+		D91480782626FCB3002AF15E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -314,131 +271,74 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-			};
-			name = Release;
-		};
-		D91480502626F6C8002AF15E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = kr.anstjaos.MyDream;
-				PRODUCT_NAME = MyDream;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D91480512626F6C8002AF15E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = kr.anstjaos.MyDream;
-				PRODUCT_NAME = MyDream;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		D91480532626F6C8002AF15E /* Debug */ = {
+		D914807A2626FCB3002AF15E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_FILE = MyDream/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.anstjaos.MyDream;
-				PRODUCT_NAME = MyDream;
-				SDKROOT = macosx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D91480542626F6C8002AF15E /* Release */ = {
+		D914807B2626FCB3002AF15E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
+				INFOPLIST_FILE = MyDream/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kr.anstjaos.MyDream;
-				PRODUCT_NAME = MyDream;
-				SDKROOT = macosx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D91480322626F6C7002AF15E /* Build configuration list for PBXProject "MyDream" */ = {
+		D91480602626FCB1002AF15E /* Build configuration list for PBXProject "MyDream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D914804D2626F6C8002AF15E /* Debug */,
-				D914804E2626F6C8002AF15E /* Release */,
+				D91480772626FCB3002AF15E /* Debug */,
+				D91480782626FCB3002AF15E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D914804F2626F6C8002AF15E /* Build configuration list for PBXNativeTarget "MyDream (iOS)" */ = {
+		D91480792626FCB3002AF15E /* Build configuration list for PBXNativeTarget "MyDream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D91480502626F6C8002AF15E /* Debug */,
-				D91480512626F6C8002AF15E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D91480522626F6C8002AF15E /* Build configuration list for PBXNativeTarget "MyDream (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D91480532626F6C8002AF15E /* Debug */,
-				D91480542626F6C8002AF15E /* Release */,
+				D914807A2626FCB3002AF15E /* Debug */,
+				D914807B2626FCB3002AF15E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D914802F2626F6C7002AF15E /* Project object */;
+	rootObject = D914805D2626FCB1002AF15E /* Project object */;
 }
