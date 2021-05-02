@@ -7,7 +7,7 @@ func hello(name: String) -> String {
 let mesage = hello(name: "asdf")
 print("Hi~~")
 print(mesage)
-
+print(123, "Hello", true, 123.345, separator: "---", terminator: "")
 
 func addTwoNumbers(num1: Int, num2: Int = 100) -> Int {
     return num1 + num2
@@ -25,5 +25,4 @@ func addNumbers(numbers: Int...) -> Int {
 }
 
 addNumbers(numbers: 1, 2, 3, 4, 5)
-
 
