@@ -21,3 +21,10 @@ circle.area()
 
 circle = Circle(radius: 20)
 circle.area()
+
+// literal
+var weight = 65
+var message = "Hello"
+
+var evenNumber = [Int](arrayLiteral: 2, 4, 6, 8)
+var oddNumbers = Array<Int>()
