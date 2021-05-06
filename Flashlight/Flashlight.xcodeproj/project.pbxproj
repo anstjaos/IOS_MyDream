@@ -13,6 +13,7 @@
 		D9B15B272643F2B1008E08ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B15B252643F2B1008E08ED /* Main.storyboard */; };
 		D9B15B292643F2B2008E08ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B15B282643F2B2008E08ED /* Assets.xcassets */; };
 		D9B15B2C2643F2B2008E08ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B15B2A2643F2B2008E08ED /* LaunchScreen.storyboard */; };
+		D9B15B342643FB41008E08ED /* switch.wav in Resources */ = {isa = PBXBuildFile; fileRef = D9B15B332643FB41008E08ED /* switch.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D9B15B282643F2B2008E08ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9B15B2B2643F2B2008E08ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9B15B2D2643F2B2008E08ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B15B332643FB41008E08ED /* switch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = switch.wav; path = ../../../../Downloads/Resource/Sound/switch.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D9B15B282643F2B2008E08ED /* Assets.xcassets */,
 				D9B15B2A2643F2B2008E08ED /* LaunchScreen.storyboard */,
 				D9B15B2D2643F2B2008E08ED /* Info.plist */,
+				D9B15B332643FB41008E08ED /* switch.wav */,
 			);
 			path = Flashlight;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9B15B342643FB41008E08ED /* switch.wav in Resources */,
 				D9B15B2C2643F2B2008E08ED /* LaunchScreen.storyboard in Resources */,
 				D9B15B292643F2B2008E08ED /* Assets.xcassets in Resources */,
 				D9B15B272643F2B1008E08ED /* Main.storyboard in Resources */,
